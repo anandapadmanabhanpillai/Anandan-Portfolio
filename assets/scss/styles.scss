@@ -185,11 +185,17 @@ img{
     padding: 4rem 0 5rem;
 
     &__data{
-        align-self: center;
+         align-self: center;
+  max-width: 560px;
+  z-index: 2;
+  position: relative;
     }
     &__title{
         font-size: var(--big-font-size);
-        margin-bottom: var(--mb-5);
+  margin-bottom: var(--mb-5);
+  line-height: 1.2;
+  white-space: normal;
+  word-break: break-word;
 
         &-color{
             color: var(--first-color);
@@ -215,6 +221,7 @@ img{
         right: 0;
         bottom: 0;
         width: 260px;
+         z-index: 1;
     }
     &__blob{
         fill: var(--first-color);
@@ -523,3 +530,4 @@ img{
         }
     }
 }
+
