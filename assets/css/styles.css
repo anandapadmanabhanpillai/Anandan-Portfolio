@@ -186,10 +186,16 @@ img {
 }
 .home__data {
   align-self: center;
+   max-width: 600px;
+  position: relative;
+  z-index: 2;
 }
 .home__title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
+    line-height: 1.2;
+  white-space: normal;
+  word-break: break-word;
 }
 .home__title-color {
   color: var(--first-color);
@@ -212,6 +218,7 @@ img {
   right: 0;
   bottom: 0;
   width: 260px;
+    z-index: 1;
 }
 .home__blob {
   fill: var(--first-color);
